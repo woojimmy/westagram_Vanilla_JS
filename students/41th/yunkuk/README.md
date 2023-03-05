@@ -1,1 +1,0 @@
-hi my name is yunkuk 👍🏻👍🏻
