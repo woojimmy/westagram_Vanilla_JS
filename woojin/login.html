@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Westagram login - 40th woojin Lim</title>
+    <link href="style/common.css" rel="stylesheet" />
+    <link href="style/login.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <section id="loginPage">
+        <!-- title(heading)-->
+        <h1>Westagram</h1>
+        <form>
+          <!--inputs: ID, password-->
+          <input
+            id="idInput"
+            class="loginInput"
+            type="text"
+            placeholder="사용자 이메일"
+          />
+          <input
+            id="pwInput"
+            class="loginInput"
+            type="password"
+            placeholder="비밀번호"
+          />
+          <!--login button-->
+          <button id="loginBtn">로그인</button>
+          <!--division section-->
+          <div id="divideSectionByOr">
+            <div class="divisionLine"></div>
+            <span id="orText">또는</span>
+            <div class="divisionLine"></div>
+          </div>
+          <!--link to facebook-->
+          <div>
+            <a href=" " id="facebookLink">
+              <img
+                src="/students/40th/woojin/login_structure_image/facebook.png"
+                id="facebookLogo" alt="facebook logo"
+              />
+              Facebook으로 로그인
+            </a>
+          </div>
+        </form>
+        <!--search password-->
+        <div id="searchPw">
+          <a href=" ">비밀번호를 잊으셨나요?</a>
+        </div>
+      </section>
+    </main>
+    <script src="/students/40th/woojin/js/login.js"></script>
+  </body>
+</html>
